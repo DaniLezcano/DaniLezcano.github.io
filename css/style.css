@@ -1,0 +1,90 @@
+/*FUENTE*/
+@font-face {
+    font-family: 'Inter';
+    src: url("Inter-Regular.ttf");
+  }
+/*CABECERA*/
+ .main-header {
+  background: #333;
+	color: white;
+	height: 115px;
+}	
+/*ITEMS DE LA CABECERA*/
+.item-header {
+color: #fff;
+float: right;
+display:inline-block;
+padding-right: 32px;
+padding-top:30px;
+border:none;
+background-color: inherit;
+cursor:pointer;
+ }
+ /*FOOTER*/
+ /*ITEMS DEL PIE DE PÁGINA*/
+ .item-footer {
+  color: #fff;
+  display:block;
+  padding: 10px;
+  border:none;
+  background-color: inherit;
+  cursor:pointer;
+   }
+   .footer {
+    background: #333;
+    color: white;
+    height: 130px;
+  }	
+/*LOGO DE LA CABECERA*/
+.logo-header{
+float: left;
+padding: 33px;
+} 
+/*LOGO DEL PIE DE PÁGINA*/
+.logo-footer{
+  float: right;
+  padding: 33px;
+  } 
+  /*TITULO DE CABECERA*/
+.title-logo {
+    float:left;
+    padding-top:50px;
+}
+/*ARTICULOS DEL SHOP*/
+/*TEXTO DE ARTÍCULOS DEL SHOP*/
+.figure {
+  display: grid;
+}
+.articles {
+  width: 80%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/*TEXTO CUOTAS ARTÍCULOS DEL SHOP*/
+.cuotas {
+  color:#1D84B5;
+}
+/*NOMBRES DE LOS ARTÍCULOS*/
+.name-product {
+  color: #333333;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+/*TÍTULOS DE LOS ARTÍCULOS*/
+.title-product {
+  color:#111111;
+  font-weight: 700;
+  font-size:18px;
+  line-height: 21.78px;
+}
+/*PRECIO DE LOS ARTÍCULOS*/
+.price-product {
+  color:#333333;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+/*COPYRICGHT FOOTER*/
+.Copyright {
+  float: right;
+}
